@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: 123456
+    username: postgres
+    url: jdbc:postgresql://127.0.0.1:5432/test
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        highlight_sql: true
+logging:
+  level:
+    org.hibernate.orm.jdbc.bind: trace
